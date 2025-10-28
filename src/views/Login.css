@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 104 vh;
+}
+.containerCadastro{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 38px;
+    border-radius: 50px;
+    min-width: 450px;
+    min-height: 600px;
+}
+.containerCadastro h1{
+    font-size: 7vh;
+    text-align: center;
+    border: #000000;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#primeiroInput{
+    margin-top: 0px;
+    
+}
+.inputs input{
+    outline: none;
+    background-color: #363131c4;
+    border-radius: 2vh;
+    padding: 12px;
+    margin-bottom: 30px !important;
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    border: #000000;
+}
+.inputs input::placeholder{
+    font-weight: bolder;
+    color: #000000;
+ border: #000000;
+}
+.containerCadastro button{
+    background-color: #e5ff00;
+    border-radius: 18px;
+    border: none;
+    display: flex;
+    margin: 15px auto;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 12px 50px;
+    color: rgb(0, 0, 0);
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+.containerCadastro form p{
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+     
+}
+.containerCadastro form p a{
+    color: #0400ff;
+   
+}
+.container-icons{
+    outline: none;
+    background-color: #5a5757;
+    height: 59px;
+    width: 60vh;
+    margin: 0 auto;
+     cursor: link;
+}

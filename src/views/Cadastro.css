@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../assets/backgroundcerto.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.containerCadastro{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 24px;
+    min-width: 400px;
+}
+.containerCadastro h1{
+    font-size: 9vh;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.inputs-cadastro{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  
+}
+#primeiroInput{
+    margin-top: 0px;
+   
+   
+}
+.inputs-cadastro label{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translateY(-20px);
+    
+    
+}
+.inputs-cadastro input{
+    outline: none;
+    background-color: #a1a1a1;
+    border-radius: 50px;
+    border: white;
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+}
+.containerCadastro button{
+    background-color: #ffffff;
+    border-radius: 54px;
+    border: none;
+    padding: 20px 18px;
+    display: flex;
+    margin: 20px auto;
+    font-size: 35px;
+    font-weight: bold;
+     
+}
+.containerCadastro form p{
+    display: flex;
+    justify-content: end;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    gap: 12px;
+}
+.container-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+   
+}
+#google{
+    margin-top: 2px;
+}
